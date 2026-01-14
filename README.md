@@ -1,4 +1,4 @@
-# Workflow repository for Austrian energy and emissions scenarios
+# Workflows for Austrian energy and emissions scenarios
 
 Copyright 2026 IIASA and participating modeling teams
 
