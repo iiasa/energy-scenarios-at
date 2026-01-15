@@ -6,13 +6,13 @@
         description: oil
     - Natural Gas:
         description: fossil methane
+    - Electricity:
+        description: electricity
     - Biomass:
         description: biomass including biomethane
     - Hydrogen & E-Fuels:
         description: hydrogen and e-fuels
-    - Other Renewables:
-        description: other renewables
     - Waste:
         description: energy from waste
-    - Electricity:
-        description: electricity
+    - Other Renewables:
+        description: other renewables
