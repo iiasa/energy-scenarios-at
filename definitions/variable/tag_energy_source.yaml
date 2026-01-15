@@ -1,0 +1,18 @@
+# This is the list of energy sources for use in the Gross Domestic Consumption structure
+- Energy Source:
+    - Coal:
+        description: coal
+    - Oil:
+        description: oil
+    - Natural Gas:
+        description: fossil methane
+    - Biomass:
+        description: biomass including biomethane
+    - Hydrogen & E-Fuels:
+        description: hydrogen and e-fuels
+    - Other Renewables:
+        description: other renewables
+    - Waste:
+        description: energy from waste
+    - Electricity:
+        description: electricity
