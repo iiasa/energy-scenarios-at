@@ -1,4 +1,4 @@
-- Emission Species:
+- Species:
     - Kyoto Gases:
         description: Kyoto GHG emissions, including CO2, CH4, N2O and F-gases
         notes: Preferably use AR4 100-year GWPs for aggregation of different gases
