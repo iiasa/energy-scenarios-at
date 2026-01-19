@@ -12,11 +12,11 @@
       (excluding transmission/distribution losses)
     unit: TJ
 
-- Gross Domestic Consumption:
+- Gross Inland Consumption:
     description: Gross domestic energy consumption including transmission losses and
       consumption at the secondary level
     unit: TJ
-- Gross Domestic Consumption|{Final Energy Carrier}:
+- Gross Inland Consumption|{Final Energy Carrier}:
     description: Gross domestic energy consumption of {Final Energy Carrier},
       including transmission losses and consumption at the secondary level
     unit: TJ
