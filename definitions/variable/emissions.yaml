@@ -6,6 +6,12 @@
       land-use change and forestry (LULUCF)
     unit: "{Species}"
 
+- Emissions|Kyoto Gases|{ETS}:
+    description: Net total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases,
+      from all sources in sectors {ETS}
+    unit: Mt CO2-equiv/yr
+    notes: Preferably use AR4 100-year GWPs for aggregation of different gases
+
 - Emissions|{Species}|Energy:
     description: Net emissions of {Species}
     unit: "{Species}"
