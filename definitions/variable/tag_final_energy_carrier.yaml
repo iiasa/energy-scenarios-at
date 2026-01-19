@@ -18,5 +18,5 @@
     - Ambient Heat:
         description: ambient heat using heat pumps, geothermal and solar thermal energy
     - Renewables incl. Ambient Heat:
-        description: renewables including biomass and hydrogen
+        description: renewables including biomass, hydrogen and ambient heat
         note: This should be used if separate reporting of renewables is not possible.

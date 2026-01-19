@@ -2,7 +2,6 @@
     description: Final energy consumption by all end-use sectors and all fuels,
       excluding transmission/distribution losses
     unit: EJ/yr
-    tier: 1
 - Final Energy by Sector|{Sector}:
     description: Energy consumption by the {Sector}
       (excluding transmission/distribution losses)
