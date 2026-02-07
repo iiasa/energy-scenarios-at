@@ -1,5 +1,5 @@
 - ETS:
-    - EU-ETS:
+    - ETS:
         description: covered by the European Union Emissions Trading System (EU ETS)
     - ESR:
         description: covered by the European Effort Sharing Regulation directive (ESR)
