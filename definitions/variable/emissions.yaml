@@ -1,3 +1,71 @@
-- Emissions|CO2:
-    description: Total net emissions of carbon dioxide (CO2)
-    unit: Mt CO2/yr
+- Emissions|{Species}:
+    description: Net emissions of {Species}
+    unit: "{Species}"
+- Emissions|{Species} [excl. LULUCF]:
+    description: Net emissions of {Species} excluding emissions from land use,
+      land-use change and forestry (LULUCF)
+    unit: "{Species}"
+
+- Emissions|Kyoto Gases [{ETS}]:
+    description: Net total Kyoto GHG emissions, including CO2, CH4, N2O and F-gases,
+      from all sources in sectors {ETS}
+    unit: Mt CO2e
+
+- Emissions|{Species}|Energy and Industrial Processes:
+    description: Net emissions of {Species} from from industrial processes and from
+      fuel combustion in energy supply and demand sectors
+    unit: "{Species}"
+
+- Emissions|{Species}|Energy:
+    description: Net emissions of {Species}
+    unit: "{Species}"
+    crf: 1.A
+- Emissions|{Species}|Energy|Supply:
+    description: Net emissions of {Species} from fuel combustion and the energy sector
+    unit: "{Species}"
+    crf: 1.A.1
+- Emissions|{Species}|Energy|Demand:
+    description: Net emissions of {Species} from fuel combustion in industry,
+      residential, commercial, institutional sectors and agriculture, forestry,
+      fishing (AFOFI) and the transportation sector (IPCC category 1A3)
+    unit: "{Species}"
+    crf: [1.A.2, 1.A.3, 1.A.4, 1.A.5]
+- Emissions|{Species}|Energy|Demand|Industry:
+    description: Net emissions of {Species} by manufacturing industries and construction
+    unit: "{Species}"
+    crf: 1.A.2
+- Emissions|{Species}|Energy|Demand|Transportation:
+    description: Net emissions of {Species} from transportation excluding emissions
+      from international bunker fuels and excluding pipeline emissions
+    unit: "{Species}"
+    crf: 1.A.3
+- Emissions|{Species}|Energy|Demand|Residential and Commercial:
+    description: Net emissions of {Species} from residential, commercial and
+      institutional sectors
+    unit: "{Species}"
+    crf: 1.A.4
+- Emissions|{Species}|Energy|Demand|Other:
+    description: Net emissions of {Species} in other demand sectors
+    unit: "{Species}"
+    crf: 1.A.5
+- Emissions|{Species}|Fugitive:
+    description: Fugitive net emissions of {Species}
+    unit: "{Species}"
+    crf: 1.B
+- Emissions|{Species}|Industrial Processes:
+    description: Net emissions of {Species} from industrial processes
+    unit: "{Species}"
+    crf: 2
+- Emissions|{Species}|Agriculture:
+    description: Net emissions of {Species} from the agriculture sector
+    unit: "{Species}"
+    crf: 3
+- Emissions|{Species}|Land Use, Land-Use Change and Forestry:
+    description: Net emissions of {Species} from land use, land-use change and forestry
+      (LULUCF)
+    unit: "{Species}"
+    crf: 4
+- Emissions|{Species}|Waste:
+    description: Net emissions of {Species} from waste
+    unit: "{Species}"
+    crf: 5
