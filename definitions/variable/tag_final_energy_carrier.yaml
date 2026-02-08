@@ -1,0 +1,22 @@
+- Final Energy Carrier:
+    - Coal:
+        description: coal
+    - Oil:
+        description: oil
+    - Natural Gas:
+        description: fossil methane
+    - Electricity:
+        description: electricity
+    - Biomass:
+        description: biomass including biomethane
+    - Hydrogen & E-Fuels:
+        description: hydrogen and e-fuels
+    - Waste:
+        description: energy from waste
+    - Centralized Heat:
+        description: heat delivered from district heating grids
+    - Ambient Heat:
+        description: ambient heat using heat pumps, geothermal and solar thermal energy
+    - Renewables incl. Ambient Heat:
+        description: renewables including biomass, hydrogen and ambient heat
+        note: This should be used if separate reporting of renewables is not possible.
