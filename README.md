@@ -1,8 +1,12 @@
 # Workflows for Austrian energy and emissions scenarios
 
-Copyright 2026 IIASA and participating modeling teams
-
-[![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff)
+[![license](https://img.shields.io/badge/License-MIT-blue)](https://github.com/iiasa/energy-scenarios-at/blob/main/LICENSE)
+[![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) 
+[![pytest](https://img.shields.io/github/actions/workflow/status/iiasa/energy-scenarios-at/validation.yml?logo=GitHub&label=pytest)](https://github.com/iiasa/energy-scenarios-at/actions/workflows/validation.yml) 
+ 
+Copyright 2026 IIASA Scenario Services team and the Scenario Compass consortium 
+ 
+This repository is licensed under the [MIT License](LICENSE). 
 
 ## Overview
 
@@ -25,3 +29,9 @@ The module `workflow.py` has a function `main(df: pyam.IamDataFrame) -> pyam.Iam
 Per default, this function takes an **IamDataFrame** and returns it without
 modifications. [Read the docs](https://pyam-iamc.readthedocs.io) for more information
 about the **pyam** package for scenario analysis and data visualization.
+
+## Funding acknowledgement
+
+This work builds on scenario analysis compiled for the [Second Austrian Assessment Report
+on Climate Change (AAR2)](https://aar2.ccca.ac.at/en) and was initiated as part of the ACRP
+Project "INFRA-ENSURE" funded by the Austrian [Climate and Energy Fund](https://www.klimafonds.gv.at).
