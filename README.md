@@ -4,7 +4,7 @@
 [![Code style: ruff](https://img.shields.io/endpoint?url=https://raw.githubusercontent.com/charliermarsh/ruff/main/assets/badge/v2.json)](https://github.com/astral-sh/ruff) 
 [![pytest](https://img.shields.io/github/actions/workflow/status/iiasa/energy-scenarios-at/validation.yml?logo=GitHub&label=pytest)](https://github.com/iiasa/energy-scenarios-at/actions/workflows/validation.yml) 
  
-Copyright 2026 IIASA Scenario Services team and the Scenario Compass consortium 
+Copyright 2026 IIASA Scenario Services team and contributing modeling teams
  
 This repository is licensed under the [MIT License](LICENSE). 
 
