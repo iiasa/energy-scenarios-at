@@ -69,3 +69,8 @@
     description: Net emissions of {Species} from waste
     unit: "{Species}"
     crf: 5
+
+- Emissions|{Species}|International Aviation [Memo Item]:
+    description: Net emissions of {Species} from bunker fuels for international aviation
+    unit: "{Species}"
+    crf: IB.Aviation
