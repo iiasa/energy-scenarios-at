@@ -1,0 +1,18 @@
+- Electricity Generation by Source:
+  - Biomass:
+      description: solid biomass
+  - Hydro:
+      description: hydropower
+  - Natural Gas:
+      description: fossil methane
+  - Coal:
+      description: coal
+  - Oil:
+      description: oil
+  - Solar:
+      description: solar photovoltaics (PV)
+  - Wind:
+      description: wind
+  - Other Renewables:
+      description: other renewables including hydrogen
+      note: This variable is used by Umweltbundesamt.

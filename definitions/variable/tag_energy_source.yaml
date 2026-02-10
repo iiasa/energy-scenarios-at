@@ -1,0 +1,18 @@
+# This is the list of energy sources for use in the Gross Inland Consumption structure
+- Energy Source:
+    - Coal:
+        description: coal
+    - Oil:
+        description: oil
+    - Natural Gas:
+        description: fossil methane
+    - Electricity:
+        description: electricity
+    - Biomass:
+        description: biomass including biomethane
+    - Hydrogen & E-Fuels:
+        description: hydrogen and e-fuels
+    - Waste:
+        description: energy from waste
+    - Other Renewables:
+        description: other renewables
