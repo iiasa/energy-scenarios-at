@@ -9,14 +9,33 @@
         description: electricity
     - Biomass:
         description: biomass including biomethane
-    - Hydrogen & E-Fuels:
-        description: hydrogen and e-fuels
+    - E-Fuels:
+        description: synthetic liquid fuels from renewable sources
+    - Biofuels:
+        description: liquid fuels including bioethanol, biodiesel,
+          other biogenic liquids and spent lye
+    - Biogas:
+        description: gas from biogenic sources including landfill gas, sewer gas, and
+          biogas (lower methane content than fossil natural gas)
+    - Biomethane:
+        description: synthetic methane from renewable sources
+    - Hydrogen:
+        description: hydrogen produced from renewable electricity
     - Waste:
         description: energy from waste
-    - Centralized Heat:
+    - Derived Heat:
         description: heat delivered from district heating grids
     - Ambient Heat:
         description: ambient heat using heat pumps, geothermal and solar thermal energy
+    - Other:
+        description: other sources or carriers
+
+# aggregate categories where detailed reporting is not possible
+    - Renewables:
+        description: renewables including biomass and green hydrogen
+        note: This variable should only be used if separate reporting of renewables is
+          not possible.
     - Renewables incl. Ambient Heat:
-        description: renewables including biomass, hydrogen and ambient heat
-        note: This should be used if separate reporting of renewables is not possible.
+        description: renewables including biomass, green hydrogen and ambient heat
+        note: This variable should only be used if separate reporting of renewables is
+          not possible.
