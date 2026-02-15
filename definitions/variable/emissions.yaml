@@ -21,7 +21,7 @@
     unit: "{Species}"
     crf: 1.A
 - Emissions|{Species}|Energy|Supply:
-    description: Net emissions of {Species} from fuel combustion and the energy sector
+    description: Net emissions of {Species} from fuel combustion in the energy sector
     unit: "{Species}"
     crf: 1.A.1
 - Emissions|{Species}|Energy|Demand:
