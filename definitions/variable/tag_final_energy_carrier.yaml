@@ -18,6 +18,8 @@
         description: gas from biogenic sources including landfill gas, sewer gas, and
           biogas (lower methane content than fossil natural gas)
     - Biomethane:
+        description: synthetic methane from biogenic sources
+    - E-Methane:
         description: synthetic methane from renewable sources
     - Hydrogen:
         description: hydrogen produced from renewable electricity
