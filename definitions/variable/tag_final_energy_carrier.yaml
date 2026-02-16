@@ -25,7 +25,7 @@
         description: hydrogen produced from renewable electricity
     - Waste:
         description: energy from waste
-    - Derived Heat:
+    - District Heat:
         description: heat delivered from district heating grids
     - Ambient Heat:
         description: ambient heat using heat pumps, geothermal and solar thermal energy
