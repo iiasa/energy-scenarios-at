@@ -3,9 +3,7 @@
         description: agriculture sector including forestry
     - Industry:
         description: industrial sector excluding non-energy use (e.g.feedstocks)
-    - Commercial:
-        description: commercial and service sector
-    - Residential:
-        description: residential sector (buildings and households)
+    - Residential and Commercial:
+        description: commercial (services) and residential sector (buildings and households)
     - Transportation:
         description: transportation sector
