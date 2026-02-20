@@ -1,0 +1,3 @@
+- Net Imports|{Final Energy Carrier}:
+    description: Net imports of {Final Energy Carrier}
+    unit: [ TJ, TWh ]

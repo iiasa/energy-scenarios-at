@@ -1,0 +1,45 @@
+- Final Energy Carrier:
+    - Coal:
+        description: coal
+    - Oil:
+        description: oil
+    - Natural Gas:
+        description: fossil methane
+    - Electricity:
+        description: electricity
+    - Biomass:
+        description: biomass including biomethane
+    - Biofuels:
+        description: liquid fuels including bioethanol, biodiesel,
+          other biogenic liquids and spent lye
+    - E-Fuels:
+        description: synthetic liquid fuels from renewable sources
+    - Biogas:
+        description: gas from biogenic sources including landfill gas, sewer gas, and
+          biogas (lower methane content than fossil natural gas)
+    - Biomethane:
+        description: synthetic methane from biogenic sources
+    - E-Methane:
+        description: synthetic methane from renewable sources
+    - Hydrogen:
+        description: hydrogen produced from renewable electricity
+    - Solar Thermal:
+        description: solar thermal
+    - Waste:
+        description: energy from waste
+    - District Heat:
+        description: heat delivered from district heating grids
+    - Ambient Heat:
+        description: ambient heat using heat pumps, geothermal and solar thermal energy
+    - Other:
+        description: other sources or carriers
+
+# aggregate categories where detailed reporting is not possible
+    - Renewables:
+        description: renewables including biomass and green hydrogen
+        note: This variable should only be used if separate reporting of renewables is
+          not possible.
+    - Renewables incl. Ambient Heat:
+        description: renewables including biomass, green hydrogen and ambient heat
+        note: This variable should only be used if separate reporting of renewables is
+          not possible.
