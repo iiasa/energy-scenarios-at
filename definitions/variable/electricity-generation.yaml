@@ -4,6 +4,3 @@
 - Secondary Energy|Electricity|{Electricity Generation by Source}:
     description: Total net generation of electricity from {Electricity Generation by Source}
     unit: TWh
-- Net Imports|Electricity:
-    description:
-    unit: TWh
