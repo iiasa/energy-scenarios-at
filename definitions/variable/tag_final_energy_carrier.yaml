@@ -9,11 +9,11 @@
         description: electricity
     - Biomass:
         description: biomass including biomethane
-    - E-Fuels:
-        description: synthetic liquid fuels from renewable sources
     - Biofuels:
         description: liquid fuels including bioethanol, biodiesel,
           other biogenic liquids and spent lye
+    - E-Fuels:
+        description: synthetic liquid fuels from renewable sources
     - Biogas:
         description: gas from biogenic sources including landfill gas, sewer gas, and
           biogas (lower methane content than fossil natural gas)
@@ -23,6 +23,8 @@
         description: synthetic methane from renewable sources
     - Hydrogen:
         description: hydrogen produced from renewable electricity
+    - Solar Thermal:
+        description: solar thermal
     - Waste:
         description: energy from waste
     - District Heat:
